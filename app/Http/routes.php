@@ -17,6 +17,9 @@ Route::get('/', function () {
 
 Route::resource('houses', 'HousesController');
 
+Route::get('lang/{lang}', ['as'=>'lang.switch', 'uses'=>'LanguageController@switchLang']);
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
