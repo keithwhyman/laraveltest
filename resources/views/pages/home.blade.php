@@ -2,18 +2,19 @@
 
 @section('content')
 
+<header class="herohome"></header>
+<div class="row columns headerbox">
+<div class="mainheader">
+Nova Scotia's 1st German Real Estate Brokerage
+Welcome to Robinson & Harmsen
+Just the right amount of difference!
+</div>
+</div>
 
-      <div class="jumbotron">
-        <h1>Jumbotron heading</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
-      </div>
+<div class="row" style="margin-top:1rem">
+<div class="large-6 columns subtext">   {!! Lang::get('pages.hometext') !!}    </div>
+  <div class="large-6 columns"><img src="images/{!! Lang::get('pages.homeimage') !!}" /> </div>
+</div>
 
-
-	<h1>Rob Test</h1>
-
-{!! trans('pages.homeheading') !!}
-
-{!! trans('pages.hometext') !!}
 
 @stop
