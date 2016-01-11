@@ -3785,7 +3785,15 @@ body {
 @media only screen and (min-width: 40em) {
   .top-bar {
     text-align: center;
-    padding: 0; }
+    padding: 0;
+    height: 3rem; }
+  .top-bar a {
+    font-size: 15px;
+    font-weight: 400;
+    color: #555555; }
+  .menu {
+    margin-top: 0.9rem;
+    margin-left: 5rem; }
   ul.center-buttons {
     display: inline-block; }
   ul.center-buttons li {
@@ -3796,7 +3804,7 @@ body {
     position: absolute; } }
 
 .logo {
-  max-width: 2rem;
+  /* max-width: 2rem; */
   margin-top: -3px;
   margin-left: 5px; }
 

@@ -25,7 +25,7 @@
 
 <nav class="top-bar" data-topbar role="navigation">
   <div class="logo">
-    <a href="http://zurb.com/stickers/images/intro-foundation.png"><img src="http://zurb.com/stickers/images/intro-foundation.png" /></a>
+    <a href="http://robinsonharmsen.com"><img src="/images/ROB_Logo_lre_long.gif" /></a>
   </div>
 
 <section class="top-bar-section">
@@ -41,21 +41,29 @@
 </ul>
 
     <ul class="dropdown menu center-buttons" data-dropdown-menu>
-
-      <li class="has-submenu">
-        <a href="#">Home</a>
+     
+	        <li><a href="#">Nova Scotia Listings</a></li>
+	  <li class="has-submenu">
+        <a href="#">Relocation</a>
         <ul class="submenu menu vertical" data-submenu>
-          <li><a href="#">One</a></li>
-          <li><a href="#">Two</a></li>
-          <li><a href="#">Three</a></li>
+          <li><a href="#">Immigration</a></li>
+          <li><a href="#">Translation</a></li>
         </ul>
       </li>
 	   <li class="divider"></li>
 
-      <li><a href="#">About</a></li>
+      <li><a href="#">Connect Magazine </a></li>
 	   <li class="divider"></li>
 
-      <li><a href="#">Contact</a></li>
+      <li><a href="#">Nova Scotia</a></li>
+	   <li class="divider"></li>
+
+      <li><a href="#">Hamburg</a></li>
+	   <li class="divider"></li>
+
+     <li><a href="#">About us</a></li>
+	   <li class="divider"></li>
+	        <li><a href="#">Contact</a></li>
 	   <li class="divider"></li>
 </ul>
   </section>
