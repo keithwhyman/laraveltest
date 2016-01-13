@@ -96,4 +96,11 @@ footer a {
 .outline {
   outline: 1px solid red; }
 
+.hamburgbanner {
+  width: 950px; }
+
+.slick-slide {
+  width: 950px !important;
+  margin: 0; }
+
 /*# sourceMappingURL=app.css.map */

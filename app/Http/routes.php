@@ -11,13 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.home');
-});
 
-Route::resource('houses', 'HousesController');
-
-Route::get('lang/{lang}', ['as'=>'lang.switch', 'uses'=>'LanguageController@switchLang']);
 
 
 /*
@@ -35,6 +29,19 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/test', function() {
 		return view('test');
 	});
+
+Route::get('/', function () {
+	return view('pages.home');
+});
+Route::get('/hamburg', function () {
+	return view('pages.hamburg');
+});
+
+Route::resource('houses', 'HousesController');
+
+Route::get('lang/{lang}', ['as'=>'lang.switch', 'uses'=>'LanguageController@switchLang']);
+
+
 
 Menu::make('MyNavBar', function($menu){
 

@@ -5,9 +5,7 @@
 <header class="herohome"></header>
 <div class="row columns headerbox">
 <div class="mainheader">
-Nova Scotia's 1st German Real Estate Brokerage
-Welcome to Robinson & Harmsen
-Just the right amount of difference!
+{!! Lang::get('pages.homeheading') !!} 
 </div>
 </div>
 

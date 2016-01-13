@@ -9,11 +9,34 @@
   <link rel="stylesheet" href="/css/all.css">
   <script src="/js/all.js"></script>
   <!-- <script src="/js/what-input.min.js"></script> -->
+
+ <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+
   <script>
   $(document).ready(function() {
 	$(document).foundation();
+
+$('.hamburgbanner').slick({
+  lazyLoad: 'ondemand',
+  slidesToShow: 5,
+  slidesToScroll: 1,
+	  autoplay: true,
+  autoplaySpeed: 2000,
+	  speed: 500,
+  fade: true,
+  cssEase: 'linear',
+	  arrows:false,
+	  adaptiveHeight:true,
+	  centerMode:true,
+	  centerPadding:'100%',
+	  variableWidth:true
+});
+
   });
   </script>
+
+
  </head>
  <body>
   
@@ -31,39 +54,39 @@
 <section class="top-bar-section">
   <ul class="rightmenu">
         @foreach (Config::get('languages') as $lang => $language)
-     
-                <li><a href="{!! route('lang.switch', $language, $lang) !!}">
+		{{--   @if ($lang != App::getLocale()) --}}
+                <li><a href="{!! route('lang.switch', $lang) !!}">
                     {!! $language !!}
 					</a>
                 </li>
-       
+       {{-- @endif --}}
         @endforeach
 </ul>
 
     <ul class="dropdown menu center-buttons" data-dropdown-menu>
-     
-	        <li><a href="#">Nova Scotia Listings</a></li>
+    
+	        <li><a href="#">  {!! App::getLocale()  !!}   {!! Lang::get('nav.listing') !!}</a></li>
 	  <li class="has-submenu">
-        <a href="#">Relocation</a>
+        <a href="#">{!! Lang::get('nav.relocation') !!}</a>
         <ul class="submenu menu vertical" data-submenu>
-          <li><a href="#">Immigration</a></li>
-          <li><a href="#">Translation</a></li>
+          <li><a href="#">{!! Lang::get('nav.immigration') !!}</a></li>
+          <li><a href="#">{!! Lang::get('nav.translation') !!}</a></li>
         </ul>
       </li>
 	   <li class="divider"></li>
 
-      <li><a href="#">Connect Magazine </a></li>
+      <li><a href="#">{!! Lang::get('nav.magazine') !!}</a></li>
 	   <li class="divider"></li>
 
-      <li><a href="#">Nova Scotia</a></li>
+      <li><a href="#">{!! Lang::get('nav.nova') !!}</a></li>
 	   <li class="divider"></li>
 
-      <li><a href="#">Hamburg</a></li>
+      <li><a href="/hamburg">{!! Lang::get('nav.hamburg') !!}</a></li>
 	   <li class="divider"></li>
 
-     <li><a href="#">About us</a></li>
+     <li><a href="#">{!! Lang::get('nav.about') !!}</a></li>
 	   <li class="divider"></li>
-	        <li><a href="#">Contact</a></li>
+	        <li><a href="#">{!! Lang::get('nav.contact') !!}</a></li>
 	   <li class="divider"></li>
 </ul>
   </section>
