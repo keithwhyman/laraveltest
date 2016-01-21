@@ -112,9 +112,11 @@ border-top:0;
 	}
 
 .hamburgbanner {
-	width:950px;
+	/* width:950px; */
+	width:100%;
 }
 .slick-slide {
-	width:950px !important; 
+/*	width:950px !important; */
 	margin:0;
-}
+	width:100%;
+	}

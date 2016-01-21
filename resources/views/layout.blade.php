@@ -17,21 +17,20 @@
   $(document).ready(function() {
 	$(document).foundation();
 
-$('.hamburgbanner').slick({
-  lazyLoad: 'ondemand',
-  slidesToShow: 5,
-  slidesToScroll: 1,
-	  autoplay: true,
-  autoplaySpeed: 2000,
-	  speed: 500,
-  fade: true,
-  cssEase: 'linear',
-	  arrows:false,
-	  adaptiveHeight:true,
-	  centerMode:true,
-	  centerPadding:'100%',
-	  variableWidth:true
-});
+		$('.hamburgbanner').slick({
+		  lazyLoad: 'ondemand',
+		  slidesToShow: 1,
+		  slidesToScroll: 1,
+		  autoplay: true,
+		  autoplaySpeed: 2000,
+		  speed: 500,
+		  fade: true,
+		  cssEase: 'linear',
+			  arrows:false,
+			  adaptiveHeight:true,
+			  centerMode:true,  
+		});
+
 
   });
   </script>
@@ -65,7 +64,7 @@ $('.hamburgbanner').slick({
 
     <ul class="dropdown menu center-buttons" data-dropdown-menu>
     
-	        <li><a href="#">  {!! App::getLocale()  !!}   {!! Lang::get('nav.listing') !!}</a></li>
+	        <li><a href="#"> {!! Lang::get('nav.listing') !!}</a></li>
 	  <li class="has-submenu">
         <a href="#">{!! Lang::get('nav.relocation') !!}</a>
         <ul class="submenu menu vertical" data-submenu>
@@ -91,7 +90,7 @@ $('.hamburgbanner').slick({
 </ul>
   </section>
 </nav>
-
+<div class="container">
 
 <div class="row">
 <div class="columns">
@@ -99,7 +98,9 @@ $('.hamburgbanner').slick({
 @yield('content')
 
 </div>	
-</div>	
+</div>
+
+</div>
 
 <!-- Footer -->
 <footer class="footer">

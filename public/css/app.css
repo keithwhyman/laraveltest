@@ -97,10 +97,12 @@ footer a {
   outline: 1px solid red; }
 
 .hamburgbanner {
-  width: 950px; }
+  /* width:950px; */
+  width: 100%; }
 
 .slick-slide {
-  width: 950px !important;
-  margin: 0; }
+  /*	width:950px !important; */
+  margin: 0;
+  width: 100%; }
 
 /*# sourceMappingURL=app.css.map */
