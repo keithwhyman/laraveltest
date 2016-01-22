@@ -159,6 +159,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         'Lavary\Menu\ServiceProvider',
+		Mews\Captcha\CaptchaServiceProvider::class,
 
     ],
 
@@ -209,6 +210,7 @@ return [
 		'Menu'       => 'Lavary\Menu\Facade',
 		'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+		'Captcha' => Mews\Captcha\Facades\Captcha::class,
 
     ],
 

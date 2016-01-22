@@ -37,11 +37,42 @@ Route::get('/hamburg', function () {
 	return view('pages.hamburg');
 });
 
+Route::get('/magazine', function () {
+	return view('pages.magazine');
+});
+
 Route::resource('houses', 'HousesController');
 
 Route::get('lang/{lang}', ['as'=>'lang.switch', 'uses'=>'LanguageController@switchLang']);
 
+Route::get('/captcha/{config?}', function (\Mews\Captcha\Captcha $captcha, $config = 'default') {
+    return $captcha->src($config);
+});
 
+Route::any('captcha-test', function()
+    {
+        if (Request::getMethod() == 'POST')
+        {
+            $rules = ['captcha' => 'required|captcha'];
+            $validator = Validator::make(Input::all(), $rules);
+            if ($validator->fails())
+            {
+                echo '<p style="color: #ff0000;">Incorrect!</p>';
+            }
+            else
+            {
+                echo '<p style="color: #00ff30;">Matched :)</p>';
+            }
+        }
+
+        $form = '<form method="post" action="captcha-test">';
+        $form .= '<input type="hidden" name="_token" value="' . csrf_token() . '">';
+        $form .= '<p>' . captcha_img() . '</p>';
+        $form .= '<p><input type="text" name="captcha"></p>';
+        $form .= '<p><button type="submit" name="check">Check</button></p>';
+        $form .= '</form>';
+        return $form;
+    });
 
 Menu::make('MyNavBar', function($menu){
 

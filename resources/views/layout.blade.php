@@ -74,7 +74,7 @@
       </li>
 	   <li class="divider"></li>
 
-      <li><a href="#">{!! Lang::get('nav.magazine') !!}</a></li>
+      <li><a href="/magazine">{!! Lang::get('nav.magazine') !!}</a></li>
 	   <li class="divider"></li>
 
       <li><a href="#">{!! Lang::get('nav.nova') !!}</a></li>

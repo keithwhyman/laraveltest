@@ -34,4 +34,14 @@ Als kreative, flexible und feinfühlige Zuhörer versuchen wir die Erwartungen u
 'hamburghead4' => 'Geschichte',
 'hamburgtext4' => 'Die ältesten festen Behausungen datieren auf das 4. Jahrhundert v. Chr. Maßgeblich durch das von Kaiser Friedrich I. Barbarossa 1189 verliehene Hafenrecht und die Handelsprivilegien für die ganze Unterelbe, entwickelte sich die Stadt im Mittelalter zu einem florierenden Handelszentrum und galt mit seinen zeitweilig 600 Brauereien als Brauhaus der Hanse. Im 14. Jahrhundert entwickelte sich Hamburg als eines der ersten Mitglieder des Kaufmannsbundes Hanse zum wichtigsten deutschen Umschlag- und Stapelplatz zwischen Nord- und Ostsee. Ab 1510 galt Hamburg endgültig als Reichsstadt. 1558 wurde die Hamburger Börse als eine der ersten Deutschlands eröffnet. Die Stadt Hamburg erlebte ihre kulturelle Blüte vor allem im 17. und 18. Jahrhundert. Auch nach dem Niedergang der Hanse und während Industrialisierung blieb die Stadt das bedeutendste Wirtschaftszentrum Norddeutschlands. In seiner wechselvollen Geschichte unterstand die Stadt der dänischen Königskrone, war Teil des Heiligen Römischen Reiches deutscher Nation und Hauptstadt des Departments Elbmündung im französischen Kaiserreich. 1813–14 wurde Hamburg vom russischen General Bennigsen belagert. Als Freie Stadt trat es 1815 dem Deutschen Bund bei. 1867 wurde es Mitglied des von Otto von Bismarck initiierten Norddeutschen Bundes und blieb 1871 Gliedstaat des nun in Deutsches Reich umbenannten Bundesstaates.',
 'hamburgsource' => 'source:wikipedia',
+
+'magazinetext' => '
+Um unsere Kunden regelmäßig mit wertvollen Anregungen rund um das Thema „Lifestyle Real Estate“ versorgen zu können, geben wir derzeit halbjährlich unser unternehmenseigenes Magazin CONNECT heraus. <br>
+Es stellt unter verschiedenen thematischen Schwerpunkten ausgewählte Immobilien aus unserem Angebot vor, sowie auch Personen, die das Wohnen Im- und Ausland unter originellen Ideen genießen.<br>
+Das CONNECT Magazin wird an unsere Kunden sowie potentielle Kunden verschickt und ist in unseren Immobilienshops erhältlich. <br><br>
+Subscribe to our Magazine CONNECT today!',
+
+'magazinesubscribe' => 'Type in your email address and <i>spam prevention code</i> in the form below.',
+'magazineunsubscribe' => 'Enter your E-mail address below, to be removed from our mailing list.
+NOTE: It is important to enter the address, where you are receiving the Connect >< Canada E-Newsletter.',
 ];
