@@ -85,7 +85,7 @@
 
      <li><a href="#">{!! Lang::get('nav.about') !!}</a></li>
 	   <li class="divider"></li>
-	        <li><a href="#">{!! Lang::get('nav.contact') !!}</a></li>
+	        <li><a href="/contact">{!! Lang::get('nav.contact') !!}</a></li>
 	   <li class="divider"></li>
 </ul>
   </section>

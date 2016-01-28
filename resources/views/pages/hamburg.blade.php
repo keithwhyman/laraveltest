@@ -48,7 +48,7 @@ h4 {
 	}
 </style>
 <div class="row" data-equalizer data-equalize-by-row="true">
-  <div class="large-6 columns" style="outline:1 px solid red">
+  <div class="large-4 columns" style="outline:1 px solid red">
 		<div class="callout clearfix">
 			  <div data-equalizer-watch>
 						 <img src="/images/{!! Lang::get('pages.hamburgpic1') !!} "/>
@@ -59,7 +59,7 @@ h4 {
 		  </div>
    	  </div>	
    </div>
-	  <div class="large-6 columns">
+	  <div class="large-8 columns">
 			   <div class="callout clearfix">
 					 <div data-equalizer-watch>
 					 		<h4>{!! Lang::get('pages.hamburghead1') !!} </h4>

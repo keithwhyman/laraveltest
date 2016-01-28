@@ -1,0 +1,95 @@
+
+'contactcontacthead' => 'Contact',
+'contactphonehead' => 'Phone',
+'contactfaxhead' => 'Fax',
+'contactemailhead' => 'eMail',
+
+'contactheadsubheading' => 'Main Office – Eastern Shore',
+'contactheadadress' => 'Robinson & Harmsen Lifestyle Real Estate Inc.<br>	
+9931 Highway #7 	<br>
+Salmon River Bridge, B0J 1P0',
+
+'contactname' => 'Martina Robinson - Broker',
+'contactsubname' => 'Licensed Associate',
+'contactphone' => '+1.902.889.3249',
+'contactfax' => '+1.902.889.3328',
+'contactemail' => 'info@RobinsonHarmsen.com',
+
+'contactheadsubheading1' => 'Branch Office – Eastern Shore',
+'contactheadadress1' => 'Robinson & Harmsen Lifestyle Real Estate Inc.<br>	
+7782 Highway #7 <br>
+Musquodoboit Harbour, B0J 2L0',
+
+'contactname1' => 'Esther Rowlings',
+'contactsubname1' => 'Licensed Associate',
+'contactphone1' => '+1.902.889.2751',
+'contactfax1' => '+1.902.889.3523',
+'contactemail1' => 'info@RobinsonHarmsen.com',
+
+'contactheadsubheading2' => 'Branch Office – Yarmouth & Acadian Shores',
+'contactheadadress2' => 'Robinson & Harmsen Lifestyle Real Estate Inc.<br>	
+264 Main Street  <br>
+Yarmouth, B5A 1C9',
+
+'contactname2' => 'Eva Stara Krebser',
+'contactsubname2' => 'Licensed Associate',
+'contactphone2' => '+1.902.742.3333',
+'contactfax2' => '+1.902.889.3328',
+'contactemail2' => 'info@RobinsonHarmsen.com',
+
+'contactinternationalhead' => 'International Representation',
+
+'contactheadsubheading3' => 'Schleswig-Holstein, Deutschland',
+'contactheadadress3' => 'Robinson & Harmsen die Makler GbR<br>
+Birkenhöhe 8<br>D-22949 Ammersbek',
+
+'contactname3' => 'Balko Schmidt',
+'contactsubname3' => 'Independent Associate Contractor',
+'contactphone3' => '+1.49.4532.4084.165',
+'contactemail3' => 'B.Schmidt@RobinsonHarmsen.com',
+
+'contactheadsubheading4' => 'Hamburg, Deutschland',
+'contactheadadress4' => 'Nicola Schaper Immobilien<br>
+Eimsbütteler Straße 63<br>D-22769 Hamburg',
+
+'contactname4' => 'Nicola Schape',
+'contactsubname4' => 'Independent Associate Broker',
+'contactphone4' => '+1.49.40.6082.1724',
+'contactemail4' => 'info@nsi-immobilien.de',
+
+'contactheadsubheading5' => 'Baden-Württemberg, Deutschland',
+'contactheadadress5' => 'Rihm Partner Immobilienmakler<br>
+Esternaystraße 81<br>D-76337 Waldbronn',
+
+'contactname5' => 'Inge Rihm',
+'contactsubname5' => 'Independent Associate Broker',
+'contactphone5' => '+1.49.7243.7254.885',
+'contactemail5' => 'info@RihmPartner.de',
+
+
+'contactheadsubheading6' => 'Tirol, Austria',
+'contactheadadress6' => 'RE/MAX Conterra Immobilien GmbH<br>
+Ausserrain 9<br>A-6167 Neustift',
+
+'contactname6' => 'Reinhard Siller',
+'contactsubname6' => 'Independent Associate Broker',
+'contactphone6' => '+1.43.664.48111.53',
+'contactemail6' => 'siller@conterra.at',
+
+'contactheadsubheading7' => 'Florida, USA',
+'contactheadadress7' => 'Coldwell Banker – Naples 5th Avenue<br>
+550 5th Avenue South<br>Naples, FL 34102',
+
+'contactname7' => 'Stefan Bolsen',
+'contactsubname7' => 'Independent Associate Broker',
+'contactphone7' => '+1.239.465.4499',
+'contactemail7' => 'info@naples5th.com',
+
+'contactheadsubheading8' => 'Business Village Luzern, Schweiz',
+'contactheadadress8' => 'Swissdomizil GmbH<br>
+Platz 5<br>CH-6039 Root D4',
+
+'contactname8' => 'Marco Zgraggen',
+'contactsubname8' => 'Independent Associate Broker',
+'contactphone8' => '+1.41.41.450.14.12',
+'contactemail8' => 'info@Swissdomizil.com',

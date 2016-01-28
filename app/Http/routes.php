@@ -41,6 +41,13 @@ Route::get('/magazine', function () {
 	return view('pages.magazine');
 });
 
+Route::get('/contact', function () {
+	return view('pages.contact');
+});
+
+Route::resource('/aboutus', 'AboutusController@index');
+
+
 Route::resource('houses', 'HousesController');
 
 Route::get('lang/{lang}', ['as'=>'lang.switch', 'uses'=>'LanguageController@switchLang']);
@@ -82,5 +89,8 @@ Menu::make('MyNavBar', function($menu){
 
 });
 
+Route::group(['middleware' => 'web'], function () {
+    Route::auth();
 
-
+    Route::get('/admin', 'HomeController@index');
+});

@@ -1,0 +1,32 @@
+# german settings
+chipcard_affiliate_pool_active:  false
+
+
+dev02-ita
+development-ita
+development-nld
+production-ita
+production-nld
+qa02dev-ita -- IN USE ? 
+qa02dev-nld
+sprintdemo-ita -- IN USE ? 
+sprintdemo-nld
+stg02-ita
+stg04-ita
+stg05-ita -- IN USE ? 
+stg05-nld
+
+
+
+        $config = $this->_getConfig();
+        if ($config->isModuleActive('chipcard_affiliate_pool'))  {
+            if ($chipCard->getTid() > 0) {
+                // get the affiliatepool form
+                $objectLinkContent = $this->_addObjectLinkData($chipCard->getTid());
+
+                $layoutBox = LayoutBox::getBox('menue');
+                $mySection = $layoutBox->getSection('setObjectLink');
+                $mySection->setHeadline($this->getLang()->get_sys("tickets", "authorized_stores_from_clients_pool"));
+                $mySection->setContent($objectLinkContent);
+            }
+        }

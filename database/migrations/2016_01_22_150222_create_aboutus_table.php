@@ -14,8 +14,8 @@ class CreateAboutusTable extends Migration
     {
 	   Schema::create('aboutus', function (Blueprint $table) {
        $table->increments('dbid');
-	   $table->bigIncrements('id');
-       $table->string('name');    ->unique();
+	   $table->integer('id');
+       $table->string('name'); #->unique();
 	   $table->string('title_eng', 100);
 	   $table->string('title_de', 100);
 	   $table->string('company', 255);
