@@ -3939,6 +3939,10 @@ h1 {
 .padbelow20 {
   margin-bottom: 1em; }
 
+@media only screen and (min-width: 40em) {
+  .top-bar {
+    height: 3.6rem; } }
+
 /*# sourceMappingURL=app.css.map */
 
 /*# sourceMappingURL=all.css.map */

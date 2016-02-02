@@ -145,5 +145,19 @@ Platz 5<br>CH-6039 Root D4',
 'contactemail8' => 'info@Swissdomizil.com',
 
 
+'abouthead' => 'Beratung, so individuell wie Sie.',
+'about1' => 'WIR MÖCHTEN IHNEN GERN UNSERE BEIDEN TEAMS IN HAMBURG UND NOVA SCOTIA VORSTELLEN.',
+'about2' => 'Ob Kanada als Urlaubsziel oder neue Wahlheimat, der Immobilienkauf oder -verkauf, das Erlernen einer neuen Sprache oder eine qualifizierte Übersetzung, gemeinsam mit Ihnen ermitteln wir Ihre persönlichen Wünsche und Bedürfnisse. Mit der Gründung unserer Nova Scotia Real Estate Brokerage, sind wir die ersten deutschen Immobilien Makler, die von der kanadischen Provinz Nova Scotia lizenziert worden sind. 
+Wir, das sind die Firmengründer Martina Robinson, Frank Harmsen und unsere Teams bei Robinson & Harmsen die Makler GbR in Hamburg, sowie unser Immobilien Maklerbüro Robinson & Harmsen Lifestyle Real Estate Inc. in Nova Scotia.',
+'about3' => 'WIR BERATEN UND BEGLEITEN SIE AUF IHREM WEG NACH KANADA VOM ERSTEN SCHRITT AN.',
+ 
+
+
+
+
+
+
+
+
 
 ];

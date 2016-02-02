@@ -45,7 +45,7 @@ Route::get('/contact', function () {
 	return view('pages.contact');
 });
 
-Route::resource('/aboutus', 'AboutusController@index');
+Route::resource('/aboutus', 'AboutusController');
 
 
 Route::resource('houses', 'HousesController');

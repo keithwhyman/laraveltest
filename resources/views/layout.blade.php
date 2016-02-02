@@ -34,6 +34,18 @@
 
   });
   </script>
+<style>
+.slick-slide img
+	{
+		width: 100%;
+	}
+@media only screen and (min-width: 40em)
+.menu {
+    margin-top: 0.3rem;
+    margin-left: 14rem;
+}
+
+</style>
 
 
  </head>
@@ -83,7 +95,7 @@
       <li><a href="/hamburg">{!! Lang::get('nav.hamburg') !!}</a></li>
 	   <li class="divider"></li>
 
-     <li><a href="#">{!! Lang::get('nav.about') !!}</a></li>
+     <li><a href="aboutus">{!! Lang::get('nav.about') !!}</a></li>
 	   <li class="divider"></li>
 	        <li><a href="/contact">{!! Lang::get('nav.contact') !!}</a></li>
 	   <li class="divider"></li>
